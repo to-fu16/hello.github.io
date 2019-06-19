@@ -1,0 +1,351 @@
+li{
+  list-style:none;
+}
+
+.clear{
+  clear:both;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: black;
+  color:white;
+}
+
+img{
+
+}
+
+
+.container{
+  margin:0 auto;
+  text-align:center;
+  width:100%;
+}
+
+header{
+  height:50px;
+  width:100%;
+  background-color:rgb(34, 49, 52);
+  opacity:0.9;
+  color:white;
+  z-index:10;
+  position: fixed;
+  top:0;
+}
+
+.header-right{
+  float:right;
+  width:60%;
+  margin-right:15px;
+}
+
+.header-left{
+  float:left;
+  font-size:30px;
+  font-family: fantasy;
+  letter-spacing: 0px;
+  padding-left:20px;
+  font-weight: bold;
+  position: absolute;
+  top:-25px;
+  left:2%;
+  cursor: default;
+  animation-name: fadein;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+
+}
+
+.logo:hover{
+  color:red;
+  transition:all 0.1s;
+
+}
+
+.header-right a{
+  float:right;
+  width:15%;
+  display:inline-block;
+  font-size: 20px;
+  text-align: center;
+  padding:0 10px;
+  border-left:1px solid white;
+  color:white;
+  line-height: 50px;
+  transition: all 1s;
+  letter-spacing: 2px;
+}
+
+.header-btn:hover {
+  color:red;
+}
+
+.top{
+  position: relative;
+  padding-top:42px;
+}
+
+.top-img{
+
+  width:100%;
+
+  padding-bottom:100px;
+  display: block;
+}
+
+.top-text{
+  position: absolute;
+  top:50%;
+  text-align: justify;
+  z-index:1;
+  font-size:80px;
+  color:white;
+  font-weight: bold;
+  letter-spacing: -2px;
+  animation-name: slidein;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+
+
+
+
+.about{
+  padding-top:50px;
+  display: inline-block;
+  width:100%;
+}
+
+.about-left{
+  float:left;
+  width:60%;
+}
+
+.about-img{
+  width:500px;
+  padding-top:20px;
+  filter:grayscale(100%);
+  transition: all 2s;
+}
+
+.about-img:hover{
+  filter: grayscale(0);
+}
+
+.about-right{
+  float: left;
+  width:40%;
+}
+
+
+.history-text p{
+  padding-bottom: 20px;
+}
+
+
+.contents{
+  display: block;
+  width:100%;
+  padding-bottom:100px;
+
+}
+
+.a1{
+  display:inline-block;
+  width:50px;
+  text-align:left;
+}
+
+.a2{
+  display: inline-block;
+  width:200px;
+  text-align: right;
+}
+
+.interest{
+  padding-top:50px;
+  width:800px;
+  margin:0 auto;
+}
+
+.travel-right{
+  position: relative;
+  float:right;
+  width:40%;
+}
+
+.travel-img{
+  width:300px;
+  padding-top:50px;
+  float:left;
+  filter:grayscale(100%);
+  transition: all 2s;
+
+}
+
+.travel-img:hover{
+  filter: grayscale(0);
+  width:350px;
+}
+
+
+.travel-left{
+  float:left;
+  width:60%;
+  padding-bottom: 100px;
+}
+
+.photo-right{
+  float: right;
+  width:60%;
+  padding-bottom: 100px;
+}
+
+.photo-left{
+  float:left;
+  width:40%;
+}
+
+.photo-img{
+  width:300px;
+  padding-top:20px;
+  float:right;
+  filter:grayscale(100%);
+  transition: all 2s;
+}
+
+.photo-img:hover{
+  filter: grayscale(0);
+  width: 350px;
+}
+
+
+.contents-right{
+  display: inline-block;
+}
+
+.work{
+  padding-top:50px;
+}
+
+.SNS{
+  padding-top:50px;
+}
+
+.insta {
+  width:100%;
+  margin:0 auto;
+}
+
+.contact{
+  width:700px;
+  margin:0 auto;
+  padding-top:50px;
+}
+
+.contact-wrapper{
+  margin:0 auto;
+}
+
+.item{
+  margin-bottom:20px;
+  overflow: hidden;
+}
+
+.label{
+  float:left;
+  margin-right: 20px;
+  width:120px;
+}
+
+.inputs{
+  float:left;
+  width:400px;
+  border:1px solid #aaa;
+  border-radius: 4px;
+  font-size:15px;
+}
+
+textarea{
+  height:80px;
+}
+
+.contact-btn{
+  display:inline-block;
+  background-color:rgba(34, 49, 50, 0.9);
+  border:none;
+  color:white;
+  font-size: 17px;
+  padding:5px 20px;
+  box-shadow:0 4px black;
+  cursor: pointer;
+}
+
+.contact-btn:hover{
+  background-color: red;
+  transition: all 0.5s;
+  animation-name: btn;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes slidein {
+  0%{
+    margin-top: 100%;
+    height:300%;
+  }
+  100%{
+    margin-top:0%;
+    height: :100%;
+  }
+}
+
+
+
+@media (max-width:750px) {
+
+  .header-right{
+    display: none;
+  }
+
+  .top-text{
+    display:none;
+  }
+
+  .interest{
+    width:100%;
+  }
+
+  .contact{
+    width:100%;
+  }
+
+  .about-left, .about-right{
+    width:100%;
+  }
+
+  .travel-right, .photo-right, .travel-left, .photo-left{
+    width:100%;
+  }
+
+  .travel-img, .photo-img{
+    display:none;
+  }
+
+}
