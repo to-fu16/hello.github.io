@@ -103,7 +103,7 @@ header{
   text-align: justify;
   z-index:1;
   font-size:80px;
-  color:white;
+  color:rgb(178, 246, 245);
   font-weight: bold;
   letter-spacing: -2px;
   animation-name: slidein;
