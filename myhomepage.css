@@ -124,7 +124,7 @@ header{
 
 .about-left{
   float:left;
-  width:60%;
+  width:50%;
 }
 
 .about-img{
@@ -140,7 +140,7 @@ header{
 
 .about-right{
   float: left;
-  width:40%;
+  width:50%;
 }
 
 
