@@ -6,8 +6,20 @@ li{
   clear:both;
 }
 
+p{
+  font-size: 20px;
+}
+
 a{
   text-decoration: none;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h3{
+  font-size: 30px;
 }
 
 body{
@@ -124,7 +136,7 @@ header{
 
 .about-left{
   float:left;
-  width:60%;
+  width:50%;
 }
 
 .about-img{
@@ -140,12 +152,17 @@ header{
 
 .about-right{
   float: left;
-  width:40%;
+  width:50%;
+
 }
 
+.history-text{
+  float:left;
+}
 
 .history-text p{
   padding-bottom: 20px;
+
 }
 
 
