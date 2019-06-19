@@ -1,6 +1,164 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>逆求人サイト</title>
+    <link rel="stylesheet" href="myhomepage.css">
+
+  </head>
+  <body>
+    <header>
+
+        <div class="header-left">
+          <p><span class="logo">K</span><span class="logo">a</span><span class="logo">t</span><span class="logo">s</span><span class="logo">u</span><span class="logo">y</span><span class="logo">o</span><span class="logo">s</span><span class="logo">h</span><span class="logo">i</span> <span class="logo">Y</span><span class="logo">o</span><span class="logo">f</span><span class="logo">u</span></p>
+        </div>
+        <div class="header-right">
+
+            <a class="header-btn" href="#contact">Contact</a>
+            <a class="header-btn" href="#sns">SNS</a>
+            <a class="header-btn" href="#works">Works</a>
+            <a class="header-btn" href="#interest">Interest</a>
+            <a class="header-btn" href="#about">About</a>
+
+        </div>
+
+    </header>
+    <main>
+
+      <div class="container">
+        <div class="top">
+
+          <img class="top-img" id="mypic" src="image1.JPG" alt="">
+          <script>
+            var pics_src = new Array("image1.JPG","image2.JPG","image3.JPG");
+            var num = 0;
+
+            slideshow();
+
+            function slideshow(){
+                if (num == 2) {
+                    num = 0;
+                }
+                else {
+                    num ++;
+                }
+                document.getElementById("mypic").src=pics_src[num];
+                setTimeout("slideshow()",5000)
+            }
+            </script>
+          <a class="top-text" target="_blank" href="https://www.skyscanner.jp/transport/flights-from/osaa/?adults=1&children=0&adultsv2=1&childrenv2=&infants=0&cabinclass=economy&rtn=1&preferdirects=false&outboundaltsenabled=false&inboundaltsenabled=false&oym=1908&iym=1908&ref=home"><span class="txt1">No </span><span class="txt2">Travel </span><span class="txt3">No </span><span class="txt4">Life</span></a>
+
+        </div>
+
+
+        <a name="about"></a>
+        <div class="about">
+
+          <h1>About</h1>
+          <div class="about-contents">
+            <div class="about-left">
+            <img class="about-img" src="image4.JPG" alt="">
+            </div>
+            <div class="about-right">
+              <div class="history-text">
+                <p>1998年福岡県生まれ。</p>
+                <p>福岡県立福岡高校出身。</p>
+                <p>現在京都大学工学部物理工学科機械システム学コース在学中。</p>
+                <p>京都大学体育会サイクリング部所属。</p>
+                <p>2019年3月から未来電子インターン生に。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a name="interest"></a>
+        <div class="interest">
+          <h1>Interest</h1>
+          <div class="contents">
+
+            <div class="travel-right">
+              <img class="travel-img" src="image5.jpg" alt="">
+
+            </div>
+            <div class="travel-left">
+              <h3>Travel</h3>
+              <p>旅好き。</p>
+              <p class="georgia"><span class="a1">2017.08.06∼09.02</span><span class="a2">Georgia</span></p>
+              <p class="china"><span class="a1">2018.08.06∼08.29</span><span class="a2">China</span></p>
+              <p class="myanmar"><span class="a1">2019.03.04∼03.23</span><span class="a2">Myanmar</span></p>
+              <p class="germany"><span class="a1">next</span><span class="a2">Germany</span></p>
+
+            </div>
+          </div>
+          <div class="contents">
+
+            <div class="photo-right">
+              <h3>Photography</h3>
+              <p>写真好き。</p>
+              <p>カメラはSONYのα6000。</p>
+              <p>Go Pro欲しい。</p>
+            </div>
+            <div class="photo-left">
+              <img class="photo-img" src="image6.jpg" alt="">
+
+            </div>
+          </div>
+          <div class="contents">
+            <div class="contents-right">
+              <h3>Comic</h3>
+              <p>マンガ好き。</p>
+              <p>好きな漫画は、キングダム。HUNTER×HUNTER。BLUE GIANT。</p>
+              <p>好きなキャラは「BLEACH」の京楽春水。</p>
+              <p>好きな漫画家は村田雄介先生。</p>
+            </div>
+          </div>
+          <div class="contents">
+            <div class="contents-right">
+              <h3>Comedy</h3>
+              <p>お笑い好き。</p>
+              <p>好きな芸人は霜降り明星、ジャルジャル、バナナマン</p>
+              <p>ラジオも聞きます。</p>
+            </div>
+          </div>
+        </div>
+        <a name="works"></a>
+        <div class="works">
+          <h1>Works</h1>
+          <div class="works-contents">
+            <p>coming soon</p>
+          </div>
+        </div>
+        <a name="sns"></a>
+        <div class="SNS">
+          <h1>SNS</h1>
+          <div class="insta">
+            <!-- InstaWidget -->
+            <a href="https://instawidget.net/v/user/to_fu16" id="link-1b6444803f74cd46a168a482cc3a22043bc162ea2bca57d631b659fd27c5d5a8">@to_fu16</a>
+<script src="https://instawidget.net/js/instawidget.js?u=1b6444803f74cd46a168a482cc3a22043bc162ea2bca57d631b659fd27c5d5a8&width=350px"></script>
+          </div>
+        </div>
+        <a name="contact"></a>
+        <div class="contact">
+          <h1>Contact</h1>
+          <div class="contact-wrapper">
+            <div class="item">
+              <label class="label" for="">Name</label>
+              <input class="inputs" type="text" name="name" placeholder="">
+            </div>
+            <div class="item">
+              <label class="label" for="">Email</label>
+              <input class="inputs" type="text" name="" placeholder="">
+            </div>
+            <div class="item">
+              <label class="label" for="">Comments</label>
+              <textarea class="inputs"></textarea>
+            </div>
+            <input  class="contact-btn" type="submit" value="submit">
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+    </footer>
+  </body>
 </html>
