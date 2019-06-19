@@ -148,6 +148,9 @@ header{
   padding-bottom: 20px;
 }
 
+.history-text{
+  float:left;
+}
 
 .contents{
   display: block;
